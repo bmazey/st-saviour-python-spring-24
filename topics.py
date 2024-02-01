@@ -11,19 +11,19 @@ if __name__ == '__main__':
     # print(expression.match('abab'))
 
     # dictionaries in python
-    id = {
+    jane_id = {
         'name': 'jane doe',
         'city': 'chicago',
         'age': '22'
     }
 
     # add an extra key / value pair
-    id['phone'] = '605-477-3018'
+    jane_id['phone'] = '605-477-3018'
 
     # duplicates not allowed!
 
-    print(id['name'])
+    print(jane_id['name'])
 
     # meet my friend json
-    id = json.loads('{\"name\":\"john doe\",\"city\":\"chicago\",\"age\":\"22\"}')
-    print(json.dumps(id))
+    john_id = json.loads('{\"name\":\"john doe\",\"city\":\"chicago\",\"age\":\"22\"}')
+    print(json.dumps(john_id))
