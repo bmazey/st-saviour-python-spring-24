@@ -24,8 +24,8 @@ def dynamic_fibonacci(n: int) -> int:
 
 if __name__ == '__main__':
     # fibonacci examples
-    print('recursive fibonacci: ' + str(fibonacci(40)))
-    # print('dynamic fibonacci: ' + str(dynamic_fibonacci(40)))
+    # print('recursive fibonacci: ' + str(fibonacci(40)))
+    print('dynamic fibonacci: ' + str(dynamic_fibonacci(100)))
 
     # https://docs.python.org/3/library/re.html
     # create a regular expression
